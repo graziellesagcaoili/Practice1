@@ -1,0 +1,146 @@
+﻿.radio-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px; /* Space between radio button groups */
+}
+
+.radio-label span {
+    margin-top: 4px; /* Space between the radio button and its label */
+}
+
+.total-score {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+/* Styling for the table */
+.ant-table-thead > tr > th {
+    background-color: #E6F0F4 !important; /* The header font color */
+    font-family: 'Anek Bangla', sans-serif;
+    text-align: center;
+}
+
+.radio-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+}
+
+.radio-label {
+   margin-top: 4px;
+   font-size: 16px; 
+}
+
+/* This styling is for Ant Design Radio components */
+.ant-radio-wrapper {
+   margin-bottom: 0;
+}
+
+.ant-radio-checked .ant-radio-inner {
+   border-color: #569DAA; 
+}
+
+.ant-radio-inner::after {
+   border-color: #569DAA; 
+}
+
+
+.ant-radio-inner {
+   color: red;
+   width: 20px;
+   height: 20px; 
+}
+
+.ant-radio-inner:after {
+   top: 4px;
+   left: 4px;
+   width: 10px; 
+   height: 10px; 
+}
+
+.ant-radio-checked .ant-radio-inner {
+    background-color: #569DAA !important; /* outer circle */
+    border-color: #569DAA !important;
+}
+
+ .ant-radio-checked .ant-radio-inner:after {
+    background-color: #569DAA; /* inner circle */
+ }
+
+
+.evaluation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+    .evaluation-header h2 {
+        font-family: 'Anek Bangla', sans-serif;
+        text-decoration: underline;
+    }
+
+
+
+.nav-button {
+    background-color: #66B2B2;
+    border: none;
+    color: white; /* Text color */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+    height: 40px;
+}
+
+    /* Add hover effect for buttons */
+    .nav-button:hover {
+        background-color: #ffff !important;
+        color: #569DAA !important;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.table-footer-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.cancel-button {
+    border: 1px solid #569DAA; /* The border color picked from your Next button */
+    background-color: #fff; /* White background */
+    color: #569DAA; /* Text color to match the border */
+    font-size: 16px; /* Adjust the font size as needed */
+    border-radius: 4px; /* Rounded corners, adjust if needed */
+    outline: none; /* Removes the outline */
+    cursor: pointer; /* Mouse cursor becomes a hand icon when hovered */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    margin-right: 10px;
+}
+
+.cancel-button:hover {
+    background-color: #569DAA; /* Background color for hover state */
+    color: #fff; /* Text color for hover state */
+}
+
+.save-button {
+    background-color: #66B2B2;
+    border: none;
+    color: white; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.table-footer-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* Adjust as needed */
+    
+}
+
